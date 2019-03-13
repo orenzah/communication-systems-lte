@@ -37,8 +37,8 @@
 % Add option [numbering=fullbar] to show the footer progress bar as always full with a slide count
 
 % Uncomment to enable the ice-blue theme
-\definecolor{main}{RGB}{92, 138, 168}
-\definecolor{background}{RGB}{240, 247, 255}
+\definecolor{main}{RGB}{255, 122, 0}
+\definecolor{background}{RGB}{255, 250, 240}
 
 %------------------------------------------------
 
@@ -52,7 +52,7 @@
 
 \subtitle{Digital modulations}
 
-\author{Gilad Yair Nevo \\ Efi Dvir \\ Oren Zaharia}
+\author{Efi Dvir \\ Oren Zaharia}
 
 \titlegraphic{\includegraphics[scale=1.5]{Images/image1_.png}} % Optional title page image, comment this line to remove it
 
@@ -89,7 +89,7 @@
 \spacing single
 \use_hyperref false
 \papersize default
-\use_geometry false
+\use_geometry true
 \use_package amsmath 1
 \use_package amssymb 0
 \use_package cancel 0
@@ -136,7 +136,7 @@
 
 \begin_layout Standard
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -150,7 +150,7 @@ status collapsed
 
 \begin_layout Frame
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -163,7 +163,7 @@ maketitle
 
  
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -181,7 +181,7 @@ status collapsed
 
 \begin_layout Standard
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -197,7 +197,7 @@ status collapsed
 
 
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -212,7 +212,7 @@ status collapsed
 
 
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -273,7 +273,6 @@ Digital Modulation
 \begin_deeper
 \begin_layout Itemize
 PSK and ASK are the simplest and basic digital modulations.
- 
 \end_layout
 
 \begin_layout Itemize
@@ -286,7 +285,7 @@ CDMA - Code-division multiple access
 \end_layout
 
 \begin_layout Itemize
-OFDM - Orthogonal frequency-division multiplexing 
+OFDM - Orthogonal frequency-division multiplexing
 \end_layout
 
 \end_deeper
